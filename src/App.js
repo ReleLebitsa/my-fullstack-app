@@ -11,17 +11,17 @@ function App() {
       <div>
         <nav>
           <ul>
-           <li><Link to="/">Home</Link></li>
-           <li><Link to="/employees">All Employees</Link></li>
-           <li><Link to="/department/engineering">Engineering</Link></li>
-           <li><Link to="/department/marketing">Marketing</Link></li>
-           <li><Link to="/department/finance">Finance</Link></li>
-        </ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/employees">All Employees</Link></li>
+            <li><Link to="/department/engineering">Engineering</Link></li>
+            <li><Link to="/department/marketing">Marketing</Link></li>
+            <li><Link to="/department/finance">Finance</Link></li>
+          </ul>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/employees" element={<Employees />} />
-          <Route path = "/department/:departmentName" element={<Department />} />
+          <Route path="/department/:departmentName" element={<Department />} />
         </Routes>
       </div>
     </Router>
@@ -29,3 +29,4 @@ function App() {
 }
 
 export default App;
+

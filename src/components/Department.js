@@ -45,6 +45,6 @@ function Department() {
                 </tbody>
             </table>
         </div>
-    )
+    );
 }
 export default Department;
